@@ -156,6 +156,8 @@ In this step, you will learn ways to make it easier to process local edits from 
 * For example, I am able to compile my code, run my code, and also print my current working directory in one line from my server using `ssh`.
 ![Image](last111.png)
 
+Another useful function would be using the **up-arrow** that will call your most command. This will efficiently help you run and test your code, instead of writing out the entire command every single time!
+
 By being able to do this, we will be able to easily run and test our code from our client to our remote server faster and more efficiently!
 
 ---
