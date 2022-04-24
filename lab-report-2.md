@@ -52,6 +52,6 @@ In order to avoid this error, my group did the following code changes:
 
 ![Image](error3.png)
 
+Within this code change, we made sure that it accounted to make sure that all the values used within creating a list is being taken into consideration. So if any of the elements are missing, then it should print out an empty list.
 
-
-
+As the failure-inducing input, `new-test3.md`, was being ran through the terminal, it had printed out the wrong output. Since the symptom is that the program printed out the wrong output, that means that there is a bug within the program. The bug is that our code did not account for missing close brackets, `]`, and close parenthesis, `)`. Within `new-test3.md`, it did not have the close brackets, however, it still printed out the element that was inside the parenthesis, even when it should not have. 
