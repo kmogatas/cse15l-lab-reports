@@ -39,7 +39,7 @@ This photo shows the new commit that I have created into my Demonstration reposi
 
 [This is the link for my resulting commit!](https://github.com/kmogatas/Demonstration/commit/9d195f5034f3c3a6461acdd45b4d1206dc702cb9)
 
->## **Setup GitHub Access from ieng6** 
+>## **Copy whole directories with `scp -r`** 
 
 Here, I am copying my whole markdown-parser directory into my `ieng6` account using `scp -r`: Below are are able to see all the files being copied:
 
