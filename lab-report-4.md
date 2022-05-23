@@ -1,14 +1,14 @@
 # Lab Report 4
 
 ```
-By Kaleigh Ross Mogatas 
+By Kaleigh Mogatas 
 ID: A17051705
 ```
 ---
 For this lab report, we will be working with three different snippets. We will be creating a total of six tests cases as we will be creating three on my groups test and three for the group we reviewed in week 7. We will run and show what the outcome was within each test for each snippet.
 
-This is the link to my group's repository:
-[https://github.com/Sking56/markdown-parser](https://github.com/Sking56/markdown-parser)
+This is the link to my PERSONAL repository:
+[https://github.com/kmogatas/markdown-parser.git](https://github.com/kmogatas/markdown-parser.git)
 
 Now, this is the link to the group we reviewed:
 [https://github.com/mdsflyboy/markdown-parser](https://github.com/mdsflyboy/markdown-parser)
@@ -31,18 +31,18 @@ The expected output of `Snippet 1` should be ``[`google.com, google.com, ucsd.ed
 
 ![Image](snip1expect.png)
 
-This was the test code I had implemented within my grou's code as we wanted to test Snippet 1. This implements a JUnit test in order to see if our code worked or not.
+This was the test code I had implemented within my code as I wanted to test Snippet 1. This implements a JUnit test in order to see if my code worked or not.
 ![Image](newGroup1.png)
 
-Here, this is the JUnit test we used to check the group's code that we had reviewed:
+Here, this is the JUnit test I used to check the group's code that we had reviewed:
 ![Image](newReview1.png)
 
 ---
 > **Result of running test for Snippet 1**
 
-After running the test for both implementations, my group and the group we reviewed, for Snippet 1, both test cases had failed. Both test cases failed becuase it had returned a different outcome than the expected result.
+After running the test for both implementations, my code and the group we reviewed, for Snippet 1, both test cases had failed. Both test cases failed becuase it had returned a different outcome than the expected result.
 
-This was the error message my group's code got after running JUnit:
+This was the error message my code got after running JUnit:
 ![Image](new1Result.png)
 Our output was ``[url.com, `google.com, google.com]``.
 
@@ -70,10 +70,10 @@ The expected output of `Snippet 2` should be `[a.com, a.com(()), example.com]`. 
 
 ![Image](snip2expect.png)
 
-This is my group's JUnit test implementation in order to check if our code would pass or fail, by if it returned the correct output.
+This is my JUnit test implementation in order to check if my code would pass or fail, by if it returned the correct output.
 ![Image](newGrouptest2.png)
 
-Here, this is the JUnit test we used to check the group's code that we had reviewed:
+Here, this is the JUnit test I used to check the group's code that we had reviewed:
 ![Image](newReview2test.png)
 
 ---
@@ -81,7 +81,7 @@ Here, this is the JUnit test we used to check the group's code that we had revie
 
 After running the JUnit tests for both groups. Both group's had failed the test because the outputs did not match the expected outputs.
 
-This was my group's error message when running the JUnit test.
+This was my error message when running the JUnit test.
 ![Image](new2Result.png)
 Our output was `[a.com, a.com((]`.
 
@@ -127,18 +127,18 @@ The expected output of `Snippet 3` should be `[https://sites.google.com/eng.ucsd
 
 ![Image](snip3expect.png)
 
-This is my group's JUnit test that I implemented to see if our code functioned properly.
+This is my JUnit test that I implemented to see if my code functioned properly.
 ![Image](testingSnippet3.png)
 
-Here, this is the JUnit test we used to check the group's code that we had reviewed:
+Here, this is the JUnit test I used to check the group's code that we had reviewed:
 ![Image](review3test.png)
 
 ---
 > **Result of running test for Snippet 3**
 
-After running the JUnit test cases that we had implemented between the two groups. The test cases for both groups had failed. They both failed because the resulting output of both of our groups did not match the expected output.
+After running the JUnit test cases that I had implemented between the two groups. The test cases for both groups had failed. They both failed because the resulting output of both of our groups did not match the expected output.
 
-This is my group's error message once running JUnit.
+This is my error message once running JUnit.
 ![Image](testSnippet3.png)
 Our output was:
 ```
