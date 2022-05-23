@@ -5,12 +5,12 @@ By Kaleigh Mogatas
 ID: A17051705
 ```
 ---
-For this lab report, we will be working with three different snippets. We will be creating a total of six tests cases as we will be creating three on my groups test and three for the group we reviewed in week 7. We will run and show what the outcome was within each test for each snippet.
+For this lab report, I will be working with three different snippets. I will be creating a total of six tests cases as I will be creating three on my code and three for the group I reviewed in week 7. I will run and show what the outcome was within each test for each snippet.
 
 This is the link to my PERSONAL repository:
 [https://github.com/kmogatas/markdown-parser.git](https://github.com/kmogatas/markdown-parser.git)
 
-Now, this is the link to the group we reviewed:
+Now, this is the link to the group I reviewed:
 [https://github.com/mdsflyboy/markdown-parser](https://github.com/mdsflyboy/markdown-parser)
 
 ---
@@ -34,17 +34,17 @@ The expected output of `Snippet 1` should be ``[`google.com, google.com, ucsd.ed
 This was the test code I had implemented within my code as I wanted to test Snippet 1. This implements a JUnit test in order to see if my code worked or not.
 ![Image](newGroup1.png)
 
-Here, this is the JUnit test I used to check the group's code that we had reviewed:
+Here, this is the JUnit test I used to check the group's code that I had reviewed:
 ![Image](newReview1.png)
 
 ---
 > **Result of running test for Snippet 1**
 
-After running the test for both implementations, my code and the group we reviewed, for Snippet 1, both test cases had failed. Both test cases failed becuase it had returned a different outcome than the expected result.
+After running the test for both implementations, my code and the group I reviewed, for Snippet 1, both test cases had failed. Both test cases failed becuase it had returned a different outcome than the expected result.
 
 This was the error message my code got after running JUnit:
 ![Image](new1Result.png)
-Our output was ``[url.com, `google.com, google.com]``.
+My output was ``[url.com, `google.com, google.com]``.
 
 This was the error message for the review group's code:
 ![Image](new1.png)
@@ -53,7 +53,7 @@ Their output was ``[url.com, `google.com, google.com, ucsd.edu]``.
 ---
 > **Review question for Snippet 1**
 
-I believe that there is a small code change that will make my program work for Snippet 1 that uses inline code with backticks. I feel like as long as we check the start and the end of the backticks. This is because then we would be able to ignore any open and closed parenthesis and brackets inside those backticks, which will hopefully make our code run properly.
+I believe that there is a small code change that will make my program work for Snippet 1 that uses inline code with backticks. I feel like as long as I check the start and the end of the backticks. This is because then I would be able to ignore any open and closed parenthesis and brackets inside those backticks, which will hopefully make our code run properly.
 
 ---
 >## **Snippet 2** 
@@ -73,7 +73,7 @@ The expected output of `Snippet 2` should be `[a.com, a.com(()), example.com]`. 
 This is my JUnit test implementation in order to check if my code would pass or fail, by if it returned the correct output.
 ![Image](newGrouptest2.png)
 
-Here, this is the JUnit test I used to check the group's code that we had reviewed:
+Here, this is the JUnit test I used to check the group's code that I had reviewed:
 ![Image](newReview2test.png)
 
 ---
@@ -83,7 +83,7 @@ After running the JUnit tests for both groups. Both group's had failed the test 
 
 This was my error message when running the JUnit test.
 ![Image](new2Result.png)
-Our output was `[a.com, a.com((]`.
+My output was `[a.com, a.com((]`.
 
 This was the error message when running the test for my review group's code.
 ![Image](new2.png)
@@ -92,7 +92,7 @@ Their output was `[a.com, a.com((, example.com]`.
 ---
 > **Review question for Snippet 2**
 
-I believe that there is not a possible small code change that will make my program work for Snippet 2 that uses nested parentheses, brackets, and escaped brackets. I feel this because we would have to take into consideration all the necessary nested parenthesis and brackets. Above this checking, we have to see if this formatting is within the correct order, and if there are some afterwards and within the code, which can take a bit of lines.
+I believe that there is not a possible small code change that will make my program work for Snippet 2 that uses nested parentheses, brackets, and escaped brackets. I feel this because I would have to take into consideration all the necessary nested parenthesis and brackets. Above this checking, I have to see if this formatting is within the correct order, and if there are some afterwards and within the code, which can take a bit of lines.
 
 >## **Snippet 3** 
 
@@ -130,7 +130,7 @@ The expected output of `Snippet 3` should be `[https://sites.google.com/eng.ucsd
 This is my JUnit test that I implemented to see if my code functioned properly.
 ![Image](testingSnippet3.png)
 
-Here, this is the JUnit test I used to check the group's code that we had reviewed:
+Here, this is the JUnit test I used to check the group's code that I had reviewed:
 ![Image](review3test.png)
 
 ---
@@ -140,7 +140,7 @@ After running the JUnit test cases that I had implemented between the two groups
 
 This is my error message once running JUnit.
 ![Image](testSnippet3.png)
-Our output was:
+My output was:
 ```
 [
     https://www.twitter.com
@@ -164,4 +164,4 @@ Their output was `[]`.
 ---
 > **Review question for Snippet 3**
 
-I believe that there is not a possible small code change that will make my program work for Snippet 3 that uses newlines in brackets and parentheses. I believe that it will take a longer code to fix the error because we would have to account for all the additional new lines being placed within the parenthesis and brackets. From this we would have to keep track of where the links and phrases continue and start at because of the newlines messing up the formatting of the link creation.
+I believe that there is not a possible small code change that will make my program work for Snippet 3 that uses newlines in brackets and parentheses. I believe that it will take a longer code to fix the error because I would have to account for all the additional new lines being placed within the parenthesis and brackets. From this I would have to keep track of where the links and phrases continue and start at because of the newlines messing up the formatting of the link creation.
