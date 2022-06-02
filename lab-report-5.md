@@ -1,7 +1,7 @@
 # Lab Report 5
 
 ```
-By Kaleigh Mogatas 
+By Kaleigh Ross Mogatas 
 ID: A17051705
 ```
 
