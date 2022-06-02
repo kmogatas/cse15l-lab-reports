@@ -29,13 +29,17 @@ Link to `201.md` test:
 
 [https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/201.md?plain=1](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/201.md?plain=1)
 
+### **Expected output**:
 The image below is the expected outcome for `201.md`:
 ![Image](201common.png)
 
 So, this shows that the expected outcome should be `[]`.
 
+### **My implementation outcome**:
 When running `MarkdownParse` on my implementation for `201.md` this was my outcome:
 ![Image](myGroup201.png)
+
+### **Staff's implementation outcome**:
 
 When running `MarkdownParse` on the provided implementation for `201.md`, this was their outcome:
 ![Image](TA201.png)
@@ -44,7 +48,7 @@ When we look at the outcome provided by [the CommonMark demo site](https://www.g
 
 This is because the expected outcome should be `[]`, which is what my implementation got. However, the staff's implementation was `[baz]`.
 
->Describing bug for `201.md`
+>## Describing bug for `201.md`
 
 ![Image](TAcode.png)
 
@@ -59,13 +63,19 @@ Link to `483.md` test:
 
 [https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/483.md?plain=1](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/483.md?plain=1)
 
+### **Expected outcome**:
+
 The image below is the expected outcome for the `483.md`
 ![Image](483common.png)
 
 So, this shows that the expected outcome should be `[]` since a link does not pop up within the preview.
 
+### **My implementation outcome**:
+
 When running `MarkdownParse` on my implementation for `201.md` this was my outcome:
 ![Image](myGroup483.png)
+
+### **Staff's implementation outcome**:
 
 When running `MarkdownParse` on the provided implementation for `201.md`, this was their outcome:
 ![Image](TA483.png)
@@ -74,7 +84,7 @@ When we look at the outcome provided by [the CommonMark demo site](https://www.g
 
 This is because the expected outcome should be `[]`, which is what my implementation got. However, the staff's implementation was `[./target.md]`, which is incorrect.
 
->Describing bug for `483.md`
+>## Describing bug for `483.md`
 
 ![Image](TAcode2.png)
 
