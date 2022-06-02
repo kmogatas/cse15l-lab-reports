@@ -5,6 +5,8 @@ By Kaleigh Mogatas
 ID: A17051705
 ```
 
+The two test cases that I selected to review for this lab report would be test cases 201 and 483.
+
 >## **Explanation of how I found the tests with different results** 
 
 
@@ -16,21 +18,21 @@ which resulted in the following image that compares the two `results.txt` files 
 
 ![Image](found.png)
 
-Basically, I used `vimdiff` on the two different results file.
+Basically, I used `vimdiff` on the two different `results.txt` files.
 
 >## Test one: 201.md
 
 ![Image](201.png)
-
+The left side is my implementation, while the right side is the staff's implementation.
 
 Link to `201.md` test: 
 
 [https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/201.md?plain=1](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/201.md?plain=1)
 
-This is the expected outcome for `201.md`
+The image below is the expected outcome for `201.md`:
 ![Image](201common.png)
 
-So, this shows that the final output should be `[]`.
+So, this shows that the expected outcome should be `[]`.
 
 When running `MarkdownParse` on my implementation for `201.md` this was my outcome:
 ![Image](myGroup201.png)
@@ -42,7 +44,7 @@ When we look at the outcome provided by [the CommonMark demo site](https://www.g
 
 This is because the expected outcome should be `[]`, which is what my implementation got. However, the staff's implementation was `[baz]`.
 
->Describing bug
+>Describing bug for `201.md`
 
 ![Image](TAcode.png)
 
@@ -51,15 +53,16 @@ The bug within this code is that it does not take into account if the close brac
 >## Test two: 483.md
 
 ![Image](483.png)
+The left side is my implementation, while the right side is the staff's implementation.
 
 Link to `483.md` test: 
 
 [https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/483.md?plain=1](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/483.md?plain=1)
 
-This is the expected outcome for the `483.md`
+The image below is the expected outcome for the `483.md`
 ![Image](483common.png)
 
-So, this shows that the final output should be `[]` since a link does not pop up within the preview.
+So, this shows that the expected outcome should be `[]` since a link does not pop up within the preview.
 
 When running `MarkdownParse` on my implementation for `201.md` this was my outcome:
 ![Image](myGroup483.png)
@@ -71,7 +74,7 @@ When we look at the outcome provided by [the CommonMark demo site](https://www.g
 
 This is because the expected outcome should be `[]`, which is what my implementation got. However, the staff's implementation was `[./target.md]`, which is incorrect.
 
->Describing bug
+>Describing bug for `483.md`
 
 ![Image](TAcode2.png)
 
